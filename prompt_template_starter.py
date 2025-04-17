@@ -62,7 +62,7 @@ messages = [
 message_prompt_template = ChatPromptTemplate.from_messages(messages)
 print(message_prompt_template,"\n\n")
 
-message_prompt = message_prompt_template.invoke({
+message_prompt = message_prompt_template.invoke({ 
     "topic":"lawyers",
     "joke_count": 3
 })
